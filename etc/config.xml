@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Elgentos_OneLineStoreName>
+            <version>1.0.0</version>
+        </Elgentos_OneLineStoreName>
+    </modules>
+    <global>
+        <blocks>
+            <onelinestorename>
+                <class>Elgentos_OneLineStoreName_Block</class>
+            </onelinestorename>
+            <adminhtml>
+                <rewrite>
+                    <widget_grid_column_renderer_store>Elgentos_OneLineStoreName_Block_WidgetStoreRenderer</widget_grid_column_renderer_store>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>
